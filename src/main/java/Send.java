@@ -16,7 +16,7 @@ public class Send {
         ConnectionFactory factory = new ConnectionFactory();
         factory.setHost("localhost");
         factory.setUsername("nana");
-        factory.setPassword("kwesi123");
+        factory.setPassword("");
         factory.setPort(5672);
         Connection connection = factory.newConnection();
         Channel channel =  connection.createChannel();
