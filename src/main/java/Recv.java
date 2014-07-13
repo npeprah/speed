@@ -16,7 +16,7 @@ public class Recv {
         ConnectionFactory factory  = new ConnectionFactory();
         factory.setHost("localhost");
         factory.setUsername("nana");
-        factory.setPassword("kwesi123");
+        factory.setPassword("");
         Connection connection = factory.newConnection();
         Channel channel = connection.createChannel();
         channel.queueDeclare(QUEUE_NAME,false,false,false,null);
